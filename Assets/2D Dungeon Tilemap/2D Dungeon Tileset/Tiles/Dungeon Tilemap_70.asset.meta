@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a10b7ce4254bd6a45a9f1d1f9b1617c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 320917
+  packageName: "Free 2D Platformer Tilemap Pack \u2013 Dungeon Theme"
+  packageVersion: 1.0
+  assetPath: Assets/2D Dungeon Tilemap/2D Dungeon Tileset/Tiles/Dungeon Tilemap_70.asset
+  uploadId: 777053

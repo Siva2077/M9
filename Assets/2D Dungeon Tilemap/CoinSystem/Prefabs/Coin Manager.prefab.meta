@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7472206e029083e469269848602bedcf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 320917
+  packageName: "Free 2D Platformer Tilemap Pack \u2013 Dungeon Theme"
+  packageVersion: 1.0
+  assetPath: Assets/2D Dungeon Tilemap/CoinSystem/Prefabs/Coin Manager.prefab
+  uploadId: 777053

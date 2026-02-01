@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67ece01a339e34442a1e8e5ad8a173e2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 320917
+  packageName: "Free 2D Platformer Tilemap Pack \u2013 Dungeon Theme"
+  packageVersion: 1.0
+  assetPath: Assets/2D Dungeon Tilemap/CoinSystem/Prefabs/Prefabs URP/Coin Particle
+    URP.prefab
+  uploadId: 777053
