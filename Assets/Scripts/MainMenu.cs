@@ -1,13 +1,26 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class MenuUI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void Play()
+    public GameObject optionsPanel;
+    public GameObject creditsPanel;
+
+    public void PlayGame()
     {
         SceneManager.LoadScene("GameScene");
     }
+
+    public void OpenOptions()
+    {
+        optionsPanel.SetActive(true);
+    }
+
+    public void CloseOptions()
+    {
+        optionsPanel.SetActive(false);
+    }
+
     public void OpenCredits()
     {
         creditsPanel.SetActive(true);
@@ -17,8 +30,8 @@ public class MainMenu : MonoBehaviour
     {
         creditsPanel.SetActive(false);
     }
-    // Update is called once per frame
-    public void Quit()
+
+    public void QuitGame()
     {
         Application.Quit();
     }
