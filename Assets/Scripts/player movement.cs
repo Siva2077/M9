@@ -1,9 +1,5 @@
 using UnityEngine;
 
-public class playermovement : MonoBehaviour
-{
-    using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 6f;
@@ -21,11 +17,11 @@ public class PlayerMovement : MonoBehaviour
     {
         float move = Input.GetAxisRaw("Horizontal");
 
-        rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 
@@ -44,5 +40,4 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = false;
         }
     }
-}
 }
