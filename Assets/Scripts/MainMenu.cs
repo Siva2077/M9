@@ -8,7 +8,15 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene");
     }
+    public void OpenCredits()
+    {
+        creditsPanel.SetActive(true);
+    }
 
+    public void CloseCredits()
+    {
+        creditsPanel.SetActive(false);
+    }
     // Update is called once per frame
     public void Quit()
     {
