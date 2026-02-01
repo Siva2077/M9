@@ -1,0 +1,33 @@
+using UnityEngine;
+
+public class NewMonoBehaviourScript : MonoBehaviour
+    [SerializeField] float delayValue = 0.05f; // Delay when destroying coins
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+{
+    if (other.gameObject.tag == "Coin")
+    {
+        UnityEngine.Debug.Log(other.gameObject.tag);
+
+        Destroy(other.gameObject, delayValue);
+        scoreCount++;
+        scoreText.text = "Score : " + scoreCount.ToString();
+
+        audioSource.PlayOneShot(coinSound);
+
+    }
+
+
+
+}
